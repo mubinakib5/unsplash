@@ -12,8 +12,8 @@ body {
 
 .search {
   background-color: #fff;
-  padding: 4px;
-  border-radius: 5px
+  padding: 0.25rem;
+  border-radius: 0.3125rem
 }
 
 .search-1 {
@@ -22,12 +22,12 @@ body {
 }
 
 .search-1 input {
-  height: 45px;
+  height: 2.8125rem;
   border: none;
   width: 100%;
-  padding-left: 34px;
-  padding-right: 10px;
-  border-right: 2px solid #eee
+  padding-left: 2.125rem;
+  padding-right: 0.125rem;
+  border-right: 0.125rem solid #eee
 }
 
 .search-1 input:focus {
@@ -38,9 +38,9 @@ body {
 
 .search-1 i {
   position: absolute;
-  top: 12px;
-  left: 5px;
-  font-size: 24px;
+  top: 0.75rem;
+  left: 0.3125rem;
+  font-size: 1.5rem;
   color: #eee
 }
 
@@ -51,25 +51,25 @@ body {
 
 .search-1 button {
   position: absolute;
-  right: 1px;
+  right: 0.0625rem;
   top: 0px;
   border: none;
-  height: 45px;
+  height: 2.8125rem;
   background-color: red;
   color: #fff;
-  width: 90px;
+  width: 5.625rem;
   border-radius: 4px;
-  left: 500px;
+  left: 31.25rem;
 }
 
 @media (max-width:800px) {
   .search-1 input {
       border-right: none;
-      border-bottom: 1px solid #eee
+      border-bottom: 0.0625rem solid #eee
   }
 
   .search-1 button {
-      height: 37px;
-      top: 5px
+      height: 2.3125rem;
+      top: 0.3125rem
   }
 }
